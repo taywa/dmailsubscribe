@@ -22,8 +22,13 @@
             <label index="flexforms.from_name">Name of sender used in confirmation emails</label>
             <label index="flexforms.subject">Subject of subscription confirmation email</label>
             <label index="label.gender">Title</label>
+<<<<<<< HEAD
             <label index="label.m">Mr.</label>
             <label index="label.f">Mrs.</label>
+=======
+            <label index="label.gender.male">Mr.</label>
+            <label index="label.gender.female">Mrs.</label>
+>>>>>>> [TASK] Make labels translatable
             <label index="label.name">Name</label>
             <label index="label.company">Company</label>
             <label index="label.email">Email</label>
