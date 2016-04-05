@@ -42,6 +42,44 @@
             </div>
         </f:if>
 
+        <f:if condition="{additionalFields.first_name}">
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="first_name">
+                            <f:translate key="label.first_name"/>
+                            {f:if(condition: '{requiredFields.first_name}', then: '*')}
+                        </label>
+                    </div>
+                    <div class="form-field">
+                        <f:form.textfield id="first_name" property="first_name"/>
+                    </div>
+                    <f:form.validationResults for="subscription.first_name">
+                        <f:for each="{validationResults.flattenedErrors}" as="error">
+                            <div class="form-error">{error.0.message}</div>
+                        </f:for>
+                    </f:form.validationResults>
+                </div>
+            </f:if>       
+
+            <f:if condition="{additionalFields.last_name}">
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="last_name">
+                            <f:translate key="label.last_name"/>
+                            {f:if(condition: '{requiredFields.last_name}', then: '*')}
+                        </label>
+                    </div>
+                    <div class="form-field">
+                        <f:form.textfield id="last_name" property="last_name"/>
+                    </div>
+                    <f:form.validationResults for="subscription.last_name">
+                        <f:for each="{validationResults.flattenedErrors}" as="error">
+                            <div class="form-error">{error.0.message}</div>
+                        </f:for>
+                    </f:form.validationResults>
+                </div>
+            </f:if>      
+        
         <f:if condition="{additionalFields.company}">
             <div class="form-row">
                 <div class="form-label">

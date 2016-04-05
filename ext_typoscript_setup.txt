@@ -8,6 +8,8 @@ config.tx_extbase.persistence.classes {
             tableName = tt_address
             columns {
                 name.mapOnProperty = name
+                first_name.mapOnProperty = first_name
+                last_name.mapOnProperty = last_name
                 company.mapOnProperty = company
                 email.mapOnProperty = email
                 gender.mapOnProperty = gender

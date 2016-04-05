@@ -58,6 +58,16 @@ class Subscription extends AbstractEntity
     /**
      * @var string
      */
+    protected $first_name;
+
+    /**
+     * @var string
+     */
+    protected $last_name;
+
+    /**
+     * @var string
+     */
     protected $company;
 
     /**
@@ -131,6 +141,40 @@ class Subscription extends AbstractEntity
     public function setName($name)
     {
         $this->name = $name;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFirst_Name()
+    {
+        return $this->first_name;
+    }
+
+    /**
+     * @param string $first_name
+     * @return void
+     */
+    public function setFirst_Name($first_name)
+    {
+        $this->first_name = $first_name;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLast_Name()
+    {
+        return $this->last_name;
+    }
+
+    /**
+     * @param string $last_name
+     * @return void
+     */
+    public function setLast_Name($last_name)
+    {
+        $this->last_name = $last_name;
     }
 
     /**
