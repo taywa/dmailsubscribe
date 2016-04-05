@@ -18,7 +18,7 @@
                     </label>
                 </div>
                 <div class="form-field">
-                    <f:form.select id="gender" property="gender" options="{m: '{f:translate(key: \'label.m\')}', f: '{f:translate(key: \'label.f\')}' }"/>
+                    <f:form.select id="gender" property="gender" options="{m: '{f:translate(key: \'label.gender.male\')}', f: '{f:translate(key: \'label.gender.female\')}' }"/>
                 </div>
             </div>
         </f:if>
@@ -63,7 +63,7 @@
 
         <div class="form-row">
             <div class="form-label">
-                <label for="email">{f:translate(key: 'label.email')}*</label>
+                <label for="email">{f:translate(key: 'label.email')} *</label>
             </div>
             <div class="form-field">
                 <f:form.textfield id="email" property="email"/>
