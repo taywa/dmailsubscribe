@@ -25,6 +25,8 @@
             <label index="label.m">Mr.</label>
             <label index="label.f">Mrs.</label>
             <label index="label.name">Name</label>
+            <label index="label.first_name">First Name</label>
+            <label index="label.last_name">Last Name</label>
             <label index="label.company">Company</label>
             <label index="label.email">Email</label>
             <label index="label.receiveHtml">HTML emails</label>
