@@ -20,7 +20,7 @@
             </trans-unit>
             <trans-unit id="label.lastName">
                 <source>Last name</source>
-                 <target>Vorname</target>
+                <target>Vorname</target>
             </trans-unit>
             <trans-unit id="label.firstName">
                 <source>First name</source>
@@ -36,7 +36,7 @@
             </trans-unit>
             <trans-unit id="label.receiveHtml">
                 <source>HTML emails</source>
-                <source>HTML E-Mail</source>
+                <source>HTML E-Mails</source>
             </trans-unit>
             <trans-unit id="label.categories">
                 <source>Categories</source>
@@ -60,7 +60,7 @@
             </trans-unit>
             <trans-unit id="message.confirm.subscription_not_found">
                 <source>This subscription could not be found or is already confirmed.</source>
-                 <target>Die Anmeldung kann nicht gefunden werden oder ist schon bestätigt worden.</target>
+                <target>Die Anmeldung kann nicht gefunden werden oder ist schon bestätigt worden.</target>
             </trans-unit>
             <trans-unit id="message.confirm.success">
                 <source>Your subscription has been confirmed.</source>
@@ -68,7 +68,7 @@
             </trans-unit>
             <trans-unit id="message.unsubscribe.confirmation_code_invalid">
                 <source>The provided confirmation code is invalid.</source>
-                 <target>Der angegebene Code ist ungültig.</target>
+                <target>Der angegebene Code ist ungültig.</target>
             </trans-unit>
             <trans-unit id="message.unsubscribe.subscription_not_found">
                 <source>This subscription could not be found.</source>
@@ -84,7 +84,7 @@
             </trans-unit>
             <trans-unit id="email.confirm_link_help">
                 <source>You have been subscribed to our newsletter. Please click the following link to confirm your subscription</source>
-                <target>Sie wurden zu unserem Newsletter hinzugefügt. Bitte bestätigen Sie Ihre Anmeldung:</target>
+                <target>Sie wurden zu unserem Newsletter hinzugefügt. Bitte bestätigen Sie Ihre Anmeldung</target>
             </trans-unit>
             <trans-unit id="email.confirm_link_text">
                 <source>subscription</source>
@@ -92,7 +92,7 @@
             </trans-unit>
             <trans-unit id="email.unsubscribe_link_help">
                 <source>To unscubscribe from our newsletter click the following link</source>
-                <target>Um sich von unserem Newletter abzumelden, klick Sie den folgenden Link:</target>
+                <target>Um sich von unserem Newletter abzumelden, klick Sie den folgenden Link</target>
             </trans-unit>
             <trans-unit id="email.unsubscribe_link_text">
                 <source>Unsubscribe</source>
